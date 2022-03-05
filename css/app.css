@@ -1,0 +1,73 @@
+body{
+}
+
+.headers{
+    background-image: url(/img/img-head.jpg);
+}
+.box-intro{width: 50%;}
+
+.team ,.headers{
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+.headers::before , .team::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #304FFE;
+    opacity: 0.7;
+    z-index: -1;
+    top: 0;
+}
+.width-60{width: 73%; margin: auto;}
+
+.p-color{color:#5C6DC9;}
+
+.team{
+    background-image: url(/img/Rectangle\ 3.png);
+    margin-top: 130px;
+}
+.Subscribe {
+    background-color: #304FFE;
+    padding-bottom:165px ;
+
+}
+.box-Subscribe{
+    width: 60%;
+    margin: auto;
+}
+.testimonials .carousel-inner img{
+    width: 80px;
+    height: 80px;
+}
+.testimonials {
+    background-color: white;
+}
+
+img{object-fit: cover;}
+.team p ,.team .our{color: #e4e4e4ab;}
+.team img{width: 150px;height: 150px;}
+.card h2{font-size: 80px;font-weight: bold;}   
+
+.card .width{ width: 70%; margin: auto;}
+.form-control{
+    padding: 21px 60px
+}
+.size{
+   padding: 20px 100px;
+   border: 1px solid lightblue;
+}
+
+.menu-footer li {
+    list-style: none;
+}
+.menu-footer a{color: #666666;}
+.icon-color{color: #3949AB; }
+footer{
+    background-color: #ECECEC;
+}
